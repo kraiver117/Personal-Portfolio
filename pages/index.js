@@ -22,8 +22,8 @@ export default function Home({ githubProfileData }) {
 					title: "Ángel Gutiérrez",
 					description:
 						"A passionate Frontend Web Developer and React Developer.",
-					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-					url: "https://developer-portfolio-1hanzla100.vercel.app",
+					image: "https://avatars.githubusercontent.com/u/31224243?s=400&u=cfdd429fbd24bd5d1413f0864b03e111aa1672ad&v=4",
+					url: "https://angel-portfolio-117.netlify.app/",
 					keywords: [
 						"Ángel",
 						"Ángel Gutiérrez",
