@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+:root {
+    --color-primary: #7f16fa;
+    --color-secondary: #ba4fce;
+    --color-tertiary: #eb6b3d
+    ;
+}
+
+.color-primary {
+    color: var(--color-primary) !important;
+}
+
+.color-secondary {
+    color: var(--color-secondary) !important;
+}
+
+.bg-color-primary {
+    background-color: var(--color-primary);
+}
+
+.bg-color-secondary {
+    background-color: var(--color-secondary);
+}
+
+.heading-secondary {
+    background-image: linear-gradient(to right, var(--color-secondary), var(--color-primary));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent !important;
+    transition: all 0.2s;
+}
+
+.heading-secondary:hover {
+    transform: skewY(1deg) skewX(2deg) scale(1.1);
+    text-shadow: .5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn-custom {
+    border-radius: 10px;
+    background-image: linear-gradient(to right, var(--color-secondary), var(--color-primary));
+    transition: all 0.2s;
+    border: none;
+}
+
+.btn-custom:hover {
+    transform: translateY(-3px);
+}
+
+.headroom--not-top {
+    background-color: #000 !important;
+}
+
+.header-navbar {
+    font-family: 'Alex Brush', cursive !important;
+    font-size: 40px;
+}
+
+.header-navbar--sm {
+    font-family: 'Alex Brush', cursive !important;
+    font-size: 30px;
+}
