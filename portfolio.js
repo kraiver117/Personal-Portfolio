@@ -5,7 +5,7 @@ export const greetings = {
 	title: "Hi, I'm Ángel Gutierrez",
 	description:
 		"A passionate Frontend Web Developer having 2+ years of experience building Web applications with JavaScript / HTML / CSS / Reactjs / Nodejs  and some other cool libraries and frameworks. Looking to collaborate with a company or project to face new challenges and gain more experience.",
-	resumeLink: "https://www.yumpu.com/en/document/read/66052544/angel-gutierrez-resume",
+	resumeLink: "https://www.yumpu.com/en/document/read/66071373/angel-gutierrez-resume",
 };
 
 export const openSource = {
