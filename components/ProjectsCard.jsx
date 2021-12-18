@@ -13,6 +13,11 @@ const ProjectsCard = ({ data }) => {
 						<div className="d-flex px-3">
 							<div className="pl-4">
 								<h3>{data.name}</h3>
+								{data.technologies ? (
+									data.technologies.map(technology => (
+										<span class="badge badge-pill bg-color-primary mr-1">{technology}</span>
+									))
+								) : null}
 								<p className="description mt-3">{data.desc}</p>
 								{data.github ? (
 									<Button

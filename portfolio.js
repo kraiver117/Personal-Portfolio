@@ -170,23 +170,27 @@ export const projects = [
 	{
 		name: "Cava Don Carlos",
 		desc: "Ecommerce dedicated to the sale of alcoholic beverages.",
+		technologies: ["React", "Redux", "Typescript", "Node.js", "Express", "MongoDB"],
 		link: "https://cavadoncarlos-192b0.web.app/",
 	},
 	{
 		name: "Bedu Store",
 		desc: "Ecommerce dedicated to sell Bedu products, implementing paypal payment methods and email service.",
+		technologies: ["React", "Redux", "Javascript", "Node.js", "Express", "MongoDB"],
 		github: "https://github.com/kraiver117/Bedu-Store",
 		link: "https://bedu-store.netlify.app/"
 	},
 	{
 		name: "Natours",
 		desc: "Really cool landing page design using HTML, CSS & Javascript",
+		technologies: ["HTML", "CSS", "Javascript"],
 		github: "https://github.com/kraiver117/Natours-landing-page",
 		link: "https://kraiver117.github.io/Natours-landing-page/",
 	},
 	{
 		name: "Expense Tracker",
 		desc: "Expense Tracker app",
+		technologies: ["React", "Context", "Javascript"],
 		github: "https://github.com/kraiver117/expense-tracker-challenge"
 	},
 ];

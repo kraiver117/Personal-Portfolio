@@ -3,8 +3,7 @@
 :root {
     --color-primary: #7f16fa;
     --color-secondary: #ba4fce;
-    --color-tertiary: #eb6b3d
-    ;
+    --color-tertiary: #eb6b3d;
 }
 
 .color-primary {
@@ -21,6 +20,10 @@
 
 .bg-color-secondary {
     background-color: var(--color-secondary);
+}
+
+.mr-1 {
+    margin-right: 5px;
 }
 
 .heading-secondary {
