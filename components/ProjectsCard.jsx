@@ -15,7 +15,7 @@ const ProjectsCard = ({ data }) => {
 								<h3>{data.name}</h3>
 								{data.technologies ? (
 									data.technologies.map(technology => (
-										<span key={technology} class="badge badge-pill bg-color-primary mr-1">{technology}</span>
+										<span key={technology} className="badge badge-pill bg-color-primary mr-1">{technology}</span>
 									))
 								) : null}
 								<p className="description mt-3">{data.desc}</p>
