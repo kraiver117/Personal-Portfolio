@@ -25,7 +25,7 @@ const GithubProfileCard = ({ prof }) => {
 								Feel free to contact me through any of my social networks
 							</p>
 							<p className="text-white mt-3">{prof.bio}</p>
-							<div className="my-3 icon-shape bg-gradient-white shadow rounded color-primary">
+							<div className="my-3 icon-shape bg-gradient-white shadow rounded color-primary location-container">
 								<i className="ni ni-pin-3 color-primary mr-2" />
 								{prof.location}
 							</div>

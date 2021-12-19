@@ -28,13 +28,13 @@ export const skillsSection = {
 	"Frontend Web Developer who wants to create quality, fast, robust and really cool apps",
 	skills: [
 		emoji(
-			"💻 Develop highly interactive Front end / User Interfaces for your web"
+			"💻 Develop highly interactive Front end / User Interfaces for your web."
 		),
 		emoji(
 			"💻 Build declarative user interfaces for the web using React."
 		),
 		emoji(
-			"💻 Implement new JS standards in the creation of a web app to handle remote data, consume APIs and use unit tests"
+			"💻 Implement new JS standards in the creation of a web app to handle remote data, consume APIs and use unit tests."
 		),
 		emoji(
 			"💻 Use CLI, manage servers, develop and publish APIs, configure databases creating communication between the application, database and server."
