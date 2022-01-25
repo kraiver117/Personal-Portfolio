@@ -188,11 +188,18 @@ export const projects = [
 		link: "https://kraiver117.github.io/Natours-landing-page/",
 	},
 	{
+		name: "Pokedex",
+		desc: "Pokedex made using vue.js and SASS",
+		technologies: ["Vue", "SASS", "Javascript", "HTML", "CSS"],
+		github: "https://github.com/kraiver117/pokedex-vue-app",
+		link: "https://pokedex-app-kraiver.netlify.app/"
+	},
+	{
 		name: "Expense Tracker",
 		desc: "Expense Tracker app",
 		technologies: ["React", "Context", "Javascript"],
 		github: "https://github.com/kraiver117/expense-tracker-challenge"
-	},
+	}
 ];
 
 export const feedbacks = [
